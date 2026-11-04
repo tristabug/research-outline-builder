@@ -223,7 +223,29 @@ When a change is logged, one ResourceChangeUsage row is added for every section 
 - Drag-and-drop reordering (arrow buttons come first)
 - User accounts and login
 
+## Wireframes
+
+Wireframes for three of the main pages, made in draw.io. The yellow notes beside each page point out which tables and fields that part of the page shows or saves (see [Pages & Data](#pages--data)).
+
+### Outline View
+
+The main screen. Sections are listed in order, with the resources attached to each one underneath.
+
+![Outline View wireframe](docs/wireframes/outline-view.drawio.png)
+
+### Add Resource to Section
+
+Picking a resource from the library to attach to a section, with optional notes on how it will be used there.
+
+![Add Resource to Section wireframe](docs/wireframes/add-resource-to-section.drawio.png)
+
+### Resource Library
+
+Every resource in one place, with separate active and archived views. Resources can be archived and restored, but never deleted.
+
+![Resource Library wireframe](docs/wireframes/resource-library.drawio.png)
+
 ## Status
 
-Planning stage. The pages and data model are planned out (see Pages & Data above). Wireframes come next, then the core outline and resource features. Integrations later in the semester.
+Design stage. The pages and data model are planned out, and wireframes are done for three of the main pages (see above). Next is a prototype built from the MVC template, starting with the core outline and resource features. Integrations later in the semester.
 
